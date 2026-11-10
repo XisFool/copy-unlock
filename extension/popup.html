@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="card">
+    <div class="title">复制解锁增强版</div>
+    <div class="host" id="host">读取中…</div>
+    <button id="toggle" disabled>读取中…</button>
+    <button id="repair" class="secondary" hidden>修复注入并刷新</button>
+    <div class="hint" id="hint">只对当前网站生效，开启后自动刷新。</div>
+    <label class="auto-row" id="autocopy-row" style="display:none">
+      <input type="checkbox" id="autocopy">
+      <span>拖选自动复制</span>
+    </label>
+    <div class="auto-hint" id="autocopy-hint" style="display:none">实验页拖选后直接写入剪贴板，无需 Ctrl+C。</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

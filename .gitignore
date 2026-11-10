@@ -1,0 +1,17 @@
+# Python / 系统
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db
+
+# 本地运行与测试产物
+profile-*/
+profiles/
+output/
+*.zip
+
+# 本地 AI 协作文档与开发脚手架（仅留本机，不上传）
+AGENTS.md
+handoff.md
+driver/
